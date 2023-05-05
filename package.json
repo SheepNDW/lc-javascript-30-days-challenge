@@ -1,0 +1,21 @@
+{
+  "name": "lc-javascript-30-days-challenge",
+  "version": "1.0.0",
+  "description": "30 Days of LC JavaScript Challenge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --run --reporter verbose",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/ui": "^0.31.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
+  }
+}
