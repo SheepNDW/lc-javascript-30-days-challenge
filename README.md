@@ -6,3 +6,4 @@
 | --- | ------- | -------------------------------------------------------- |
 | 1   | Closure | [Create Hello World Function](./problems/Day1/README.md) |
 | 2   | Closure | [Counter](./problems/Day2/README.md)                     |
+| 3   | Closure | [Counter II](./problems/Day3/README.md)                  |
