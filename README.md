@@ -8,3 +8,4 @@
 | 2   | Closure                | [Counter](./problems/Day2/README.md)                                    |
 | 3   | Closure                | [Counter II](./problems/Day3/README.md)                                 |
 | 4   | Basic Array Transforms | [Apply Transform Over Each Element in Array](./problems/Day4/README.md) |
+| 5   | Basic Array Transforms | [Filter Elements from Array](./problems/Day5/README.md)                 |
