@@ -47,4 +47,4 @@ Falsy values such as 0 should be filtered out
 **Constraints**:
 
 - `0 <= arr.length <= 1000`
-- -10^9^ <= `arr[i]` <= 10^9^
+- -10<sup>9</sup> <= `arr[i]` <= 10<sup>9</sup>
