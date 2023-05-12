@@ -11,3 +11,4 @@
 | 5   | Basic Array Transforms    | [Filter Elements from Array](./problems/Day5/README.md)                 |
 | 6   | Basic Array Transforms    | [Array Reduce Transformation](./problems/Day6/README.md)                |
 | 7   | Function input and Output | [Function Composition](./problems/Day7/README.md)                       |
+| 8   | Function input and Output | [Allow One Function Call](./problems/Day8/README.md)                    |
