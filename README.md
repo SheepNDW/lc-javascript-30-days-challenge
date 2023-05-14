@@ -13,3 +13,4 @@
 | 7   | Function input and Output | [Function Composition](./problems/Day7/README.md)                       |
 | 8   | Function input and Output | [Allow One Function Call](./problems/Day8/README.md)                    |
 | 9   | Function input and Output | [Memoize](./problems/Day9/README.md)                                    |
+| 10  | Function input and Output | [Curry](./problems/Day10/README.md)                                     |
