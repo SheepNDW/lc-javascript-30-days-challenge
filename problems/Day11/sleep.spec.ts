@@ -14,17 +14,17 @@ describe('sleep', () => {
     const t = Date.now();
 
     sleep(100);
-    vi.advanceTimersByTime(100);
+    vi.runAllTimers();
 
-    expect(Date.now() - t).toBeGreaterThanOrEqual(100);
+    expect(Date.now() - t).toEqual(100);
   });
 
   it('should sleep for 200ms', () => {
     const t = Date.now();
 
     sleep(200);
-    vi.advanceTimersByTime(200);
+    vi.runAllTimers();
 
-    expect(Date.now() - t).toBeGreaterThanOrEqual(200);
+    expect(Date.now() - t).toEqual(200);
   });
 });
