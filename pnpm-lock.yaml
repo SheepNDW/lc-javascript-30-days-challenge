@@ -1,10 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@datastructures-js/priority-queue': 6.2.0
   '@vitest/ui': ^0.31.0
   ts-node: ^10.9.1
   typescript: ^5.0.4
   vitest: ^0.31.0
+
+dependencies:
+  '@datastructures-js/priority-queue': 6.2.0
 
 devDependencies:
   '@vitest/ui': 0.31.0_vitest@0.31.0
@@ -20,6 +24,16 @@ packages:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
+
+  /@datastructures-js/heap/4.3.1:
+    resolution: {integrity: sha512-au4fYa4fprREES58FnMOTFjg8lCYpSenF5tBu8C/iweMaj02rAOZUqlLUCqR3HIWzNfgTeCmAiyRHdjJVHrsIQ==}
+    dev: false
+
+  /@datastructures-js/priority-queue/6.2.0:
+    resolution: {integrity: sha512-z4Nikrb3PqlYn1+2bF+LArm2kWC5kvm13E1h+HYm0exGuUEp2Av0S31tDG+h8hVIbg+FlJIzWiF/T38XIexs5w==}
+    dependencies:
+      '@datastructures-js/heap': 4.3.1
+    dev: false
 
   /@esbuild/android-arm/0.17.18:
     resolution: {integrity: sha512-EmwL+vUBZJ7mhFCs5lA4ZimpUH3WMAoqvOIYhVQwdIgSpHC8ImHdsRyhHAVxpDYUSm0lWvd63z0XH1IlImS2Qw==}
