@@ -11,41 +11,50 @@ describe('timeLimit', () => {
   });
 
   it('should resolve if the function resolves before the time limit', async () => {
+    const RESPONSE_TIME = 100;
+    const TIME_LIMIT = 150;
+
     const fn = async (n: number) => {
-      await new Promise((res) => setTimeout(res, 100));
+      await new Promise((res) => setTimeout(res, RESPONSE_TIME));
       return n * n;
     };
-    const limitedFn = timeLimit(fn, 150);
+    const limitedFn = timeLimit(fn, TIME_LIMIT);
 
     const promise = limitedFn(5);
-    vi.advanceTimersByTime(100);
+    vi.advanceTimersByTime(RESPONSE_TIME);
 
     await expect(promise).resolves.toBe(25);
   });
 
-  it('should resolve if the function resolves before the time limit', async () => {
+  it('should resolve if the function with multiple parameters resolves before the time limit', async () => {
+    const RESPONSE_TIME = 120;
+    const TIME_LIMIT = 121;
+
     const fn = async (a: number, b: number) => {
-      await new Promise((res) => setTimeout(res, 120));
+      await new Promise((res) => setTimeout(res, RESPONSE_TIME));
       return a + b;
     };
-    const limitedFn = timeLimit(fn, 121);
+    const limitedFn = timeLimit(fn, TIME_LIMIT);
 
     const promise = limitedFn(5, 10);
-    vi.advanceTimersByTime(120);
+    vi.advanceTimersByTime(RESPONSE_TIME);
 
     await expect(promise).resolves.toBe(15);
   });
 
   it('should reject if the function does not resolve before the time limit', async () => {
+    const RESPONSE_TIME = 100;
+    const TIME_LIMIT = 50;
+
     const fn = async (n: number) => {
-      await new Promise((res) => setTimeout(res, 100));
+      await new Promise((res) => setTimeout(res, RESPONSE_TIME));
       return n * n;
     };
 
-    const limitedFn = timeLimit(fn, 50);
+    const limitedFn = timeLimit(fn, TIME_LIMIT);
 
     const promise = limitedFn(5);
-    vi.advanceTimersByTime(100);
+    vi.advanceTimersByTime(RESPONSE_TIME);
 
     await expect(promise).rejects.toThrow('Time Limit Exceeded');
   });
