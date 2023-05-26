@@ -25,3 +25,4 @@
 | 19  | JSON / Recursion / Important Utilities | [Array of Objects to Matrix](./problems/Day19)                |
 | 20  | JSON / Recursion / Important Utilities | [Differences Between Two Objects](./problems/Day20)           |
 | 21  | JSON / Recursion / Important Utilities | [Chunk Array](./problems/Day21)                               |
+| 22  | JSON / Recursion / Important Utilities | [Flatten Deeply Nested Array](./problems/Day22)               |
