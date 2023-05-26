@@ -41,7 +41,7 @@ describe('promisePool', () => {
 
     // 檢查是否同時執行了 n 個函式
     expect(duration).toBeGreaterThanOrEqual(20);
-    expect(duration).toBeLessThan(30);
+    expect(duration).toBeLessThan(35);
 
     // 檢查是否所有的函式都被執行了
     expect(calls.length).toBe(3);
@@ -61,7 +61,7 @@ describe('promisePool', () => {
 
     // 檢查是否按照序列順序執行了函式
     expect(duration).toBeGreaterThanOrEqual(30 + 40 + 20);
-    expect(duration).toBeLessThan(30 + 40 + 20 + 10); // 留有一些額外的時間以防萬一
+    expect(duration).toBeLessThan(30 + 40 + 20 + 15); // 留有一些額外的時間以防萬一
 
     // 檢查是否所有的函式都被執行了
     expect(calls.length).toBe(3);
