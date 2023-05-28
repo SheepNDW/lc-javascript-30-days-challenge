@@ -27,3 +27,4 @@
 | 21  | JSON / Recursion / Important Utilities | [Chunk Array](./problems/Day21)                               |
 | 22  | JSON / Recursion / Important Utilities | [Flatten Deeply Nested Array](./problems/Day22)               |
 | 23  | This                                   | [Array Prototype Last](./problems/Day23)                      |
+| 23  | This                                   | [Group By](./problems/Day24)                                  |
