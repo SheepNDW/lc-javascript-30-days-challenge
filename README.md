@@ -29,3 +29,4 @@
 | 23  | This                                   | [Array Prototype Last](./problems/Day23)                      |
 | 24  | This                                   | [Group By](./problems/Day24)                                  |
 | 25  | This                                   | [Check if Object Instance of Class](./problems/Day25)         |
+| 26  | This                                   | [Call Function with Custom Context](./problems/Day26)         |
