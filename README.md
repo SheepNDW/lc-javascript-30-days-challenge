@@ -30,4 +30,5 @@
 | 24  | This                                   | [Group By](./problems/Day24)                                  |
 | 25  | This                                   | [Check if Object Instance of Class](./problems/Day25)         |
 | 26  | This                                   | [Call Function with Custom Context](./problems/Day26)         |
-| 27  | Classes                                | [2694. Event Emitter](./problems/Day27)                       |
+| 27  | Classes                                | [Event Emitter](./problems/Day27)                             |
+| 28  | Classes                                | [Array Wrapper](./problems/Day28)                             |
