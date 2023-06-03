@@ -33,4 +33,4 @@
 | 27  | Classes                                | [Event Emitter](./problems/Day27)                             |
 | 28  | Classes                                | [Array Wrapper](./problems/Day28)                             |
 | 29  | Generators                             | [Generate Fibonacci Sequence](./problems/Day29)               |
-| 30  |                                        | [](./problems/Day30)                                          |
+| 30  | Generators                             | [Nested Array Generator](./problems/Day30)                    |
