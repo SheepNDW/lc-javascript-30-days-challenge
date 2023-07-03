@@ -37,3 +37,4 @@
 | 30  | Generators                             | [Nested Array Generator](./problems/Day30)                                                                    |
 | Ex1 | Closure                                | [To Be Or Not To Be](./problems/Extra/%5B2704%5D%20To%20Be%20Or%20Not%20To%20Be/)                             |
 | Ex2 | Function Transformations               | [Return Length of Arguments Passed](./problems/Extra/%5B2703%5D%20Return%20Length%20of%20Arguments%20Passed/) |
+| Ex3 | Promise                                | [Add Two Promises](./problems/Extra/%5B2723%5D%20Add%20Two%20Promises/)                                       |
