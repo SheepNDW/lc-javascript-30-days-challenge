@@ -38,4 +38,5 @@
 | Ex1 | Closure                                | [To Be Or Not To Be](./problems/Extra/%5B2704%5D%20To%20Be%20Or%20Not%20To%20Be/)                                         |
 | Ex2 | Function Transformations               | [Return Length of Arguments Passed](./problems/Extra/%5B2703%5D%20Return%20Length%20of%20Arguments%20Passed/)             |
 | Ex3 | Promise                                | [Add Two Promises](./problems/Extra/%5B2723%5D%20Add%20Two%20Promises/)                                                   |
-| Ex4 | Promise                                | [Execute Cancellable Function With Delay](./problems/Extra/%5B2715%5D%20Execute%20Cancellable%20Function%20With%20Delay/) |
+| Ex4 | Time                                   | [Execute Cancellable Function With Delay](./problems/Extra/%5B2715%5D%20Execute%20Cancellable%20Function%20With%20Delay/) |
+| Ex5 | Time                                   | [Interval Cancellation](./problems/Extra/%5B2725%5D%20Interval%20Cancellation/)                                           |
