@@ -43,3 +43,4 @@
 | Ex6 | Promise                                | [Execute Asynchronous Functions in Parallel](./problems/Extra/[2721]%20Execute%20Asynchronous%20Functions%20in%20Parallel/) |
 | Ex7 | JSON                                   | [Is Object Empty](./problems/Extra/[2727]%20Is%20Object%20Empty/)                                                           |
 | Ex8 | JSON                                   | [Sort By](./problems/Extra/[2724]%20Sort%20By/)                                                                             |
+| Ex9 | JSON                                   | [Join Two Arrays by ID](./problems/Extra/[2722]%20Join%20Two%20Arrays%20by%20ID/)                                           |
