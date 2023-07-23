@@ -45,3 +45,4 @@
 | Ex8  | JSON                                   | [Sort By](./problems/Extra/[2724]%20Sort%20By/)                                                                             |
 | Ex9  | JSON                                   | [Join Two Arrays by ID](./problems/Extra/[2722]%20Join%20Two%20Arrays%20by%20ID/)                                           |
 | Ex10 | JSON                                   | [Compact Object](./problems/Extra/[2705]%20Compact%20Object/)                                                               |
+| Ex11 | Classes                                | [Calculator with Method Chaining](./problems/Extra/[2726]%20Calculator%20with%20Method%20Chaining/)                         |
